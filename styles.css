@@ -4,6 +4,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column;
     height: 100vh;
     margin: 0;
     background-image: url('img/background.png');
@@ -14,6 +15,18 @@ body {
 }
 
 .container {
+    transition-duration: 1s;
+    background-color: #ffffff70;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.container2 {
+    margin-top: 10px;
     transition-duration: 1s;
     background-color: #ffffff70;
     padding: 20px;
